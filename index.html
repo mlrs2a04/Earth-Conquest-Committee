@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NanoSilicon — Advanced Silicon Anode Materials</title>
+  <meta name="description" content="나노실리콘: 차세대 리튬이온 배터리를 위한 실리콘 기반 음극재 솔루션" />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">본문 바로가기</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="NanoSilicon Home">
+        <img src="assets/logo.svg" alt="" width="36" height="36" />
+        <span>NanoSilicon</span>
+      </a>
+
+      <nav class="nav" aria-label="주 메뉴">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" id="navToggle">메뉴</button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#about">회사소개</a></li>
+          <li><a href="#products">제품/기술</a></li>
+          <li><a href="#news">소식</a></li>
+          <li><a href="#contact">문의</a></li>
+        </ul>
+      </nav>
+
+      <div class="actions">
+        <button class="btn secondary" id="modeToggle" aria-pressed="false" title="다크모드 전환">🌗</button>
+        <a class="btn primary" href="#contact">견적 문의</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section">
+      <div class="container hero-inner">
+        <h1 class="headline">차세대 배터리를 여는 <span class="accent">실리콘 음극재</span></h1>
+        <p class="lead">
+          나노실리콘은 고순도 실리콘 분말과 SiOx/Si-C 복합소재로<br class="br-md"/> 에너지 밀도와 수명을 동시에 향상시키는 솔루션을 제공합니다.
+        </p>
+        <div class="hero-cta">
+          <a class="btn primary lg" href="#products">제품 보기</a>
+          <a class="btn ghost lg" href="#about">회사 소개</a>
+        </div>
+        <ul class="stats" role="list">
+          <li><strong>10–12&nbsp;µm</strong><span>D50 분급</span></li>
+          <li><strong>95%</strong><span>Pass Rate</span></li>
+          <li><strong>1,000&nbsp;kg/h</strong><span>Throughput</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="aboutTitle">
+      <div class="container">
+        <h2 id="aboutTitle">회사소개</h2>
+        <div class="grid two">
+          <p>
+            NanoSilicon은 고순도 실리콘 분말과 고안정성 복합소재를 연구·생산하여
+            글로벌 배터리 제조사와 함께 차세대 전기차 및 ESS 시장을 선도하고 있습니다.
+            안전한 생산설비, 높은 수율, 원재료 고순화 역량을 기반으로 경쟁력을 확보했습니다.
+          </p>
+          <ul class="checklist">
+            <li>원료 특성 및 안정적 수급망</li>
+            <li>원가 경쟁력: 수율/가격/안전 설비</li>
+            <li>고순화 프로세스로 불순물 저감</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="products" aria-labelledby="productsTitle">
+      <div class="container">
+        <h2 id="productsTitle">제품/기술</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>나노 실리콘 분말</h3>
+            <p>고순도, 협폭 PSD, 낮은 수분·불순물로 고용량과 수명 향상을 지원합니다.</p>
+            <ul class="meta"><li>D50 10–12&nbsp;µm</li><li>수분 &lt; 50&nbsp;ppm</li><li>금속불순물 저감</li></ul>
+          </article>
+          <article class="card">
+            <h3>SiOx 복합소재</h3>
+            <p>팽창 완화와 초기 효율 개선을 동시에 달성하는 하이브리드 음극 소재.</p>
+            <ul class="meta"><li>초기효율 개선</li><li>Cycle 안정성</li><li>공정 호환성</li></ul>
+          </article>
+          <article class="card">
+            <h3>Si-C 복합소재</h3>
+            <p>전도성 매트릭스로 레이트 성능과 구조적 안정성을 높입니다.</p>
+            <ul class="meta"><li>고율 충방전</li><li>내구성 향상</li><li>저비용 스케일업</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="news" aria-labelledby="newsTitle">
+      <div class="container">
+        <h2 id="newsTitle">회사 소식</h2>
+        <div class="news-list" id="newsList" aria-live="polite">
+          <article class="news">
+            <time datetime="2025-10-01">2025-10-01</time>
+            <h3>신규 생산라인 증설 공지</h3>
+            <p>GSA-KR-600 제트밀 라인 증설로 월간 생산능력이 확대되었습니다.</p>
+          </article>
+          <article class="news">
+            <time datetime="2025-08-20">2025-08-20</time>
+            <h3>대학 산학협력 MOU 체결</h3>
+            <p>공주대학교와 공동 R&amp;D 프로젝트를 시작합니다.</p>
+          </article>
+        </div>
+        <form id="newsForm" class="news-form" aria-labelledby="newsFormTitle">
+          <h3 id="newsFormTitle">소식 추가 (로컬 데모)</h3>
+          <div class="form-grid">
+            <label>날짜 <input type="date" id="newsDate" required></label>
+            <label>제목 <input type="text" id="newsTitleInput" required maxlength="60" placeholder="제목을 입력하세요"></label>
+            <label class="full">내용 <textarea id="newsBody" rows="3" required placeholder="간단한 내용을 입력하세요"></textarea></label>
+          </div>
+          <button type="submit" class="btn primary">추가</button>
+          <p class="form-help">※ 브라우저 LocalStorage에만 저장됩니다 (데모용).</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contactTitle">
+      <div class="container">
+        <h2 id="contactTitle">문의</h2>
+        <form id="contactForm" novalidate>
+          <div class="form-grid">
+            <label>성함 <input type="text" name="name" required></label>
+            <label>이메일 <input type="email" name="email" required></label>
+            <label>회사명 <input type="text" name="company"></label>
+            <label>전화번호 <input type="tel" name="phone"></label>
+            <label class="full">내용 <textarea name="message" rows="4" required></textarea></label>
+          </div>
+          <button type="submit" class="btn primary">문의 보내기</button>
+          <p id="contactResult" class="form-result" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> NanoSilicon Co., Ltd. All rights reserved.</small>
+      <a href="#top" class="to-top" aria-label="맨 위로">↑ 맨 위</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
